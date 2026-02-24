@@ -322,7 +322,7 @@ This project is open source and available for educational purposes.
 
 **Mahithesh**
 - GitHub: [@Mahithesh](https://github.com/Mahithesh)
-- Repository: [Shoppy-Store](https://github.com/Mahithesh/NxtTrendz)
+- Repository: [NxtTrendz](https://github.com/Mahithesh/NxtTrendz)
 
 ## 🙏 Acknowledgments
 
