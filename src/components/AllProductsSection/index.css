@@ -1,0 +1,246 @@
+.all-products-section {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-section {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+  }
+}
+
+.all-products-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-container {
+    margin-left: 30px;
+    width: 70%;
+  }
+}
+
+.products-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-heading {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-list {
+    gap: 20px;
+  }
+}
+
+.no-products-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-view {
+    margin-left: 0;
+    width: 100%;
+    padding: 60px 20px;
+    margin-top: 0px;
+  }
+}
+
+.no-products-img {
+  width: 200px;
+  height: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-img {
+    width: 350px;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .no-products-img {
+    width: 459px;
+    height: 315px;
+  }
+}
+
+.no-products-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-heading {
+    margin-top: 24px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .no-products-heading {
+    font-size: 24px;
+  }
+}
+
+.no-products-description {
+  text-align: center;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 90%;
+  max-width: 288px;
+  line-height: 1.6;
+  margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-description {
+    margin-top: 12px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .no-products-description {
+    font-size: 18px;
+    width: 60%;
+    max-width: 466px;
+  }
+}
+
+.products-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  padding: 40px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-error-view-container {
+    margin-top: 0px;
+    margin-left: 0;
+    width: 100%;
+    padding: 60px 20px;
+  }
+}
+
+.products-failure-img {
+  width: 200px;
+  height: 160px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-failure-img {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .products-failure-img {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+.product-failure-heading-text {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .product-failure-heading-text {
+    margin-top: 24px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .product-failure-heading-text {
+    font-size: 24px;
+  }
+}
+
+.products-failure-description {
+  text-align: center;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 90%;
+  max-width: 288px;
+  line-height: 1.6;
+  margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-failure-description {
+    margin-top: 12px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .products-failure-description {
+    font-size: 18px;
+    width: 60%;
+    max-width: 466px;
+  }
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  padding: 40px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-loader-container {
+    min-height: 600px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .products-loader-container {
+    min-height: 70vh;
+  }
+}

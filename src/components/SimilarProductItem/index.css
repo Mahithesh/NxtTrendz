@@ -1,0 +1,164 @@
+/* Similar Product Item Styling */
+.similar-product-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: calc(50% - 12px);
+  flex-grow: 0;
+  flex-shrink: 1;
+  margin-right: 24px;
+}
+
+@media screen and (max-width: 550px) {
+  .similar-product-item {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 767px) {
+  .similar-product-item {
+    width: calc(50% - 12px);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .similar-product-item {
+    width: calc(33.33% - 14px);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .similar-product-item {
+    width: 260px;
+    margin-right: 20px;
+  }
+}
+
+.thumbnail {
+  width: 100%;
+  height: auto;
+  max-height: 280px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail {
+    max-height: 300px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .thumbnail {
+    max-height: 320px;
+  }
+}
+
+.LINK {
+  text-decoration: none;
+}
+
+.title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .title {
+    font-size: 20px;
+  }
+}
+
+.brand {
+  color: #594d6d;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 992px) {
+  .brand {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+}
+
+.product-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 8px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.price {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .price {
+    font-size: 18px;
+  }
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  padding: 4px 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .rating-container {
+    padding: 6px 16px;
+  }
+}
+
+.rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 4px;
+  margin: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .rating {
+    font-size: 16px;
+  }
+}
+
+.star {
+  height: 16px;
+  width: 16px;
+  margin-bottom: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .star {
+    height: 18px;
+    width: 18px;
+  }
+}

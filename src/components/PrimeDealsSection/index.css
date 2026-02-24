@@ -1,0 +1,54 @@
+.primedeals-list-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .primedeals-list-heading {
+    font-size: 32px;
+    margin-top: 48px;
+  }
+}
+
+.primedeals-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .primedeals-list {
+    gap: 20px;
+  }
+}
+
+.register-prime-image {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .register-prime-image {
+    margin-top: 30px;
+  }
+}
+
+.primedeals-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  padding: 40px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .primedeals-loader-container {
+    min-height: 60vh;
+  }
+}
