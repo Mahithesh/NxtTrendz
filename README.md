@@ -72,16 +72,6 @@ shoppy-store/
 └── README.md
 ```
 
-## 🧩 Component Architecture
-
-<details>
-<summary>Click to view component structure</summary>
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-specific-product-details-component-breakdown-structure.png" alt="component breakdown structure" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
-
 ### Component Overview
 
 - **App**: Main application component with routing
@@ -99,20 +89,6 @@ shoppy-store/
 - **Cart**: Shopping cart page
 - **ProtectedRoute**: Route authentication wrapper
 - **NotFound**: 404 error page
-
-</details>
-
-## 📸 Screenshots & Design Files
-
-<details>
-<summary>Click to view design references</summary>
-
-- [Extra Small (Size < 576px) and Small (Size >= 576px) - Success](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-product-details-success-sm-output-v0.png)
-- [Extra Small (Size < 576px) and Small (Size >= 576px) - Failure](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-product-details-error-sm-output-v0.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Success](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-product-details-success-lg-output-v0.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Failure](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-product-details-error-lg-output.png)
-
-</details>
 
 ## 🚀 Getting Started
 
@@ -159,14 +135,6 @@ Password: rahul@2021
 Username: raja
 Password: raja@2021
 ```
-
-## 📱 Responsive Breakpoints
-
-- **Mobile**: < 576px
-- **Tablet**: >= 576px
-- **Desktop**: >= 768px
-- **Large Desktop**: >= 992px
-- **Extra Large**: >= 1200px
 
 ## 🎯 Application Features & Functionality
 
@@ -354,7 +322,7 @@ This project is open source and available for educational purposes.
 
 **Mahithesh**
 - GitHub: [@Mahithesh](https://github.com/Mahithesh)
-- Repository: [Shoppy-Store](https://github.com/Mahithesh/Shoppy-Store)
+- Repository: [Shoppy-Store](https://github.com/Mahithesh/NxtTrendz)
 
 ## 🙏 Acknowledgments
 
