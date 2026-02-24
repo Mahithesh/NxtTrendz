@@ -3,61 +3,39 @@
 .product-item {
   display: flex;
   flex-direction: column;
-  margin-bottom: 24px;
-  width: calc(50% - 12px);
-  flex-grow: 0;
-  flex-shrink: 1;
-  margin-right: 24px;
-}
-
-@media screen and (max-width: 550px) {
-  .product-item {
-    width: 100%;
-    margin-bottom: 20px;
-    margin-right: 0;
-  }
-}
-
-@media screen and (min-width: 551px) and (max-width: 767px) {
-  .product-item {
-    width: calc(50% - 12px);
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .product-item {
-    width: calc(33.33% - 14px);
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .product-item {
-    width: 260px;
-    margin-right: 20px;
-  }
+  margin: 0;
+  width: 100%;
+  min-width: 0;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.08);
+  overflow: hidden;
+  padding: 12px;
 }
 
 .thumbnail {
   width: 100%;
+  aspect-ratio: 4 / 3;
   height: auto;
-  max-height: 280px;
   border-radius: 6px;
   object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
   .thumbnail {
-    max-height: 300px;
+    aspect-ratio: 5 / 4;
   }
 }
 
 @media screen and (min-width: 992px) {
   .thumbnail {
-    max-height: 320px;
+    aspect-ratio: 4 / 3;
   }
 }
 
 .LINK{
+  display: block;
+  height: 100%;
   text-decoration: none;
 }
 

@@ -38,14 +38,21 @@
 }
 
 .products-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr;
   padding-left: 0;
   gap: 16px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {
   .products-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .products-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 20px;
   }
 }
